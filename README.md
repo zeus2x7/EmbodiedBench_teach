@@ -3,7 +3,9 @@
 EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents
 </h1>
 
- <span style="color:red">EmbodiedBench will be used for CVPR 2026 Workshop on Foundation Models Meet Embodied Agents (FMEA) Challenges! Stay tuned.</span>
+<p align="center">
+$\color{red}{\text{EmbodiedBench will be used for CVPR 2026 Workshop on Foundation Models Meet Embodied Agents (FMEA) Challenges! Stay tuned.}}$
+</p>
 
 <p align="center">
   📄  <a href="http://arxiv.org/abs/2502.09560"><strong>Paper</strong></a> |  
