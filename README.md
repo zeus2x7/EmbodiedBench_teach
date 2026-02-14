@@ -102,7 +102,7 @@ cd EmbodiedBench
 ```
 
 **You have two options for installation: you can either use 
-just follow the commands from install.sh script and try testing each environment seperately using the commands given a little below post that run random_agent_logger.py to test and log each environment.
+------just follow the commands from install.sh script and try testing each environment seperately using the commands given a little below post that run random_agent_logger.py to test and log each environment. -------
 ```bash install.sh``` or manually run the provided commands. After completing the installation with `bash install.sh`, you will need to start the headless server and verify that each environment is properly set up.**
 
 1️⃣ Environment for ```Habitat and Alfred```
