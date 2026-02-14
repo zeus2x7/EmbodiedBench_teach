@@ -1,0 +1,285 @@
+{
+    "env_name": "EB-Manipulation",
+    "instruction": "Pick up the star and place it into the silver container.",
+    "steps": [
+        {
+            "step": 0,
+            "action_id": null,
+            "action_description": "Initial State",
+            "reward": 0.0,
+            "done": false,
+            "info": {},
+            "frame_path": null
+        },
+        {
+            "step": 1,
+            "action_id": [
+                66.07112121582031,
+                62.983726501464844,
+                98.06836700439453,
+                73.2719497680664,
+                98.71183013916016,
+                41.45721435546875,
+                96.21598815917969,
+                1.0
+            ],
+            "action_description": "Continuous Action",
+            "reward": -1.0,
+            "done": false,
+            "info": "{'env_feedback': 'You are currently performing the task intended to pick up the star and place it into the silver container. At this moment, you have completed executing 1 steps. Last action is invalid. Could not create path..The current reward obtained is -1.', 'instruction': 'Pick up the star and place it into the silver container.', 'env_step': 1, 'episode_elapsed_seconds': 4.463268041610718, 'episode_num': 1, 'action': array([     66.071,      62.984,      98.068,      73.272,      98.712,      41.457,      96.216,           1], dtype=float32), 'action_success': 0.0, 'task_success': 0.0}",
+            "frame_path": "random_agent_logs/EB-Manipulation/20260214_144559/step_1.png"
+        },
+        {
+            "step": 2,
+            "action_id": [
+                0.7538018226623535,
+                3.7190208435058594,
+                70.05583953857422,
+                44.6834716796875,
+                40.74911117553711,
+                55.05013656616211,
+                64.46278381347656,
+                1.0
+            ],
+            "action_description": "Continuous Action",
+            "reward": -1.0,
+            "done": false,
+            "info": "{'env_feedback': 'You are currently performing the task intended to pick up the star and place it into the silver container. At this moment, you have completed executing 2 steps. Last action is invalid. Target is outside of workspace..The current reward obtained is -1.', 'instruction': 'Pick up the star and place it into the silver container.', 'env_step': 2, 'episode_elapsed_seconds': 4.46952486038208, 'episode_num': 1, 'action': array([     0.7538,       3.719,      70.056,      44.683,      40.749,       55.05,      64.463,           1], dtype=float32), 'action_success': 0.0, 'task_success': 0.0}",
+            "frame_path": "random_agent_logs/EB-Manipulation/20260214_144559/step_2.png"
+        },
+        {
+            "step": 3,
+            "action_id": [
+                20.91524314880371,
+                11.874083518981934,
+                22.44379997253418,
+                99.64472961425781,
+                81.09599304199219,
+                70.96995544433594,
+                29.534303665161133,
+                1.0
+            ],
+            "action_description": "Continuous Action",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'env_feedback': 'You are currently performing the task intended to pick up the star and place it into the silver container. At this moment, you have completed executing 3 steps. Last action is valid. The current reward obtained is 0.0.', 'instruction': 'Pick up the star and place it into the silver container.', 'env_step': 3, 'episode_elapsed_seconds': 8.885512113571167, 'episode_num': 1, 'action': array([     20.915,      11.874,      22.444,      99.645,      81.096,       70.97,      29.534,           1], dtype=float32), 'action_success': 1.0, 'task_success': 0.0}",
+            "frame_path": "random_agent_logs/EB-Manipulation/20260214_144559/step_3.png"
+        },
+        {
+            "step": 4,
+            "action_id": [
+                47.603816986083984,
+                96.176513671875,
+                17.48050880432129,
+                59.78669357299805,
+                68.2532958984375,
+                41.27644348144531,
+                76.18145751953125,
+                1.0
+            ],
+            "action_description": "Continuous Action",
+            "reward": -1.0,
+            "done": false,
+            "info": "{'env_feedback': 'You are currently performing the task intended to pick up the star and place it into the silver container. At this moment, you have completed executing 4 steps. Last action is invalid. Could not create path..The current reward obtained is -1.', 'instruction': 'Pick up the star and place it into the silver container.', 'env_step': 4, 'episode_elapsed_seconds': 12.203192472457886, 'episode_num': 1, 'action': array([     47.604,      96.177,      17.481,      59.787,      68.253,      41.276,      76.181,           1], dtype=float32), 'action_success': 0.0, 'task_success': 0.0}",
+            "frame_path": "random_agent_logs/EB-Manipulation/20260214_144559/step_4.png"
+        },
+        {
+            "step": 5,
+            "action_id": [
+                1.2301167249679565,
+                62.52303695678711,
+                12.205727577209473,
+                60.588069915771484,
+                77.40547943115234,
+                53.87416458129883,
+                59.66633605957031,
+                1.0
+            ],
+            "action_description": "Continuous Action",
+            "reward": -1.0,
+            "done": false,
+            "info": "{'env_feedback': 'You are currently performing the task intended to pick up the star and place it into the silver container. At this moment, you have completed executing 5 steps. Last action is invalid. Target is outside of workspace..The current reward obtained is -1.', 'instruction': 'Pick up the star and place it into the silver container.', 'env_step': 5, 'episode_elapsed_seconds': 12.208812475204468, 'episode_num': 1, 'action': array([     1.2301,      62.523,      12.206,      60.588,      77.405,      53.874,      59.666,           1], dtype=float32), 'action_success': 0.0, 'task_success': 0.0}",
+            "frame_path": "random_agent_logs/EB-Manipulation/20260214_144559/step_5.png"
+        },
+        {
+            "step": 6,
+            "action_id": [
+                79.9383773803711,
+                1.2838375568389893,
+                2.8053526878356934,
+                30.884761810302734,
+                58.22049331665039,
+                57.733436584472656,
+                0.7144581079483032,
+                1.0
+            ],
+            "action_description": "Continuous Action",
+            "reward": -1.0,
+            "done": false,
+            "info": "{'env_feedback': 'You are currently performing the task intended to pick up the star and place it into the silver container. At this moment, you have completed executing 6 steps. Last action is invalid. Target is outside of workspace..The current reward obtained is -1.', 'instruction': 'Pick up the star and place it into the silver container.', 'env_step': 6, 'episode_elapsed_seconds': 12.213834285736084, 'episode_num': 1, 'action': array([     79.938,      1.2838,      2.8054,      30.885,       58.22,      57.733,     0.71446,           1], dtype=float32), 'action_success': 0.0, 'task_success': 0.0}",
+            "frame_path": "random_agent_logs/EB-Manipulation/20260214_144559/step_6.png"
+        },
+        {
+            "step": 7,
+            "action_id": [
+                56.962493896484375,
+                4.481282711029053,
+                25.374584197998047,
+                57.16472244262695,
+                86.67544555664062,
+                18.348918914794922,
+                51.825965881347656,
+                1.0
+            ],
+            "action_description": "Continuous Action",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'env_feedback': 'You are currently performing the task intended to pick up the star and place it into the silver container. At this moment, you have completed executing 7 steps. Last action is valid. The current reward obtained is 0.0.', 'instruction': 'Pick up the star and place it into the silver container.', 'env_step': 7, 'episode_elapsed_seconds': 18.583618640899658, 'episode_num': 1, 'action': array([     56.962,      4.4813,      25.375,      57.165,      86.675,      18.349,      51.826,           1], dtype=float32), 'action_success': 1.0, 'task_success': 0.0}",
+            "frame_path": "random_agent_logs/EB-Manipulation/20260214_144559/step_7.png"
+        },
+        {
+            "step": 8,
+            "action_id": [
+                5.194308757781982,
+                64.79283905029297,
+                78.71534729003906,
+                75.80323791503906,
+                96.72608184814453,
+                59.462249755859375,
+                45.64630889892578,
+                1.0
+            ],
+            "action_description": "Continuous Action",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'env_feedback': 'You are currently performing the task intended to pick up the star and place it into the silver container. At this moment, you have completed executing 8 steps. Last action is valid. The current reward obtained is 0.0.', 'instruction': 'Pick up the star and place it into the silver container.', 'env_step': 8, 'episode_elapsed_seconds': 25.022588968276978, 'episode_num': 1, 'action': array([     5.1943,      64.793,      78.715,      75.803,      96.726,      59.462,      45.646,           1], dtype=float32), 'action_success': 1.0, 'task_success': 0.0}",
+            "frame_path": "random_agent_logs/EB-Manipulation/20260214_144559/step_8.png"
+        },
+        {
+            "step": 9,
+            "action_id": [
+                99.46337127685547,
+                71.90095520019531,
+                73.1241226196289,
+                37.14216995239258,
+                23.991636276245117,
+                17.542116165161133,
+                13.696829795837402,
+                1.0
+            ],
+            "action_description": "Continuous Action",
+            "reward": -1.0,
+            "done": false,
+            "info": "{'env_feedback': 'You are currently performing the task intended to pick up the star and place it into the silver container. At this moment, you have completed executing 9 steps. Last action is invalid. Could not create path..The current reward obtained is -1.', 'instruction': 'Pick up the star and place it into the silver container.', 'env_step': 9, 'episode_elapsed_seconds': 28.33627963066101, 'episode_num': 1, 'action': array([     99.463,      71.901,      73.124,      37.142,      23.992,      17.542,      13.697,           1], dtype=float32), 'action_success': 0.0, 'task_success': 0.0}",
+            "frame_path": "random_agent_logs/EB-Manipulation/20260214_144559/step_9.png"
+        },
+        {
+            "step": 10,
+            "action_id": [
+                63.927879333496094,
+                40.4521598815918,
+                55.34536361694336,
+                55.88277816772461,
+                24.95442771911621,
+                22.62309455871582,
+                11.053356170654297,
+                1.0
+            ],
+            "action_description": "Continuous Action",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'env_feedback': 'You are currently performing the task intended to pick up the star and place it into the silver container. At this moment, you have completed executing 10 steps. Last action is valid. The current reward obtained is 0.0.', 'instruction': 'Pick up the star and place it into the silver container.', 'env_step': 10, 'episode_elapsed_seconds': 33.6841197013855, 'episode_num': 1, 'action': array([     63.928,      40.452,      55.345,      55.883,      24.954,      22.623,      11.053,           1], dtype=float32), 'action_success': 1.0, 'task_success': 0.0}",
+            "frame_path": "random_agent_logs/EB-Manipulation/20260214_144559/step_10.png"
+        },
+        {
+            "step": 11,
+            "action_id": [
+                78.5434799194336,
+                54.905052185058594,
+                27.051841735839844,
+                36.619503021240234,
+                83.27286529541016,
+                78.25321197509766,
+                94.27241516113281,
+                1.0
+            ],
+            "action_description": "Continuous Action",
+            "reward": -1.0,
+            "done": false,
+            "info": "{'env_feedback': 'You are currently performing the task intended to pick up the star and place it into the silver container. At this moment, you have completed executing 11 steps. Last action is invalid. Could not create path..The current reward obtained is -1.', 'instruction': 'Pick up the star and place it into the silver container.', 'env_step': 11, 'episode_elapsed_seconds': 36.99936056137085, 'episode_num': 1, 'action': array([     78.543,      54.905,      27.052,       36.62,      83.273,      78.253,      94.272,           1], dtype=float32), 'action_success': 0.0, 'task_success': 0.0}",
+            "frame_path": "random_agent_logs/EB-Manipulation/20260214_144559/step_11.png"
+        },
+        {
+            "step": 12,
+            "action_id": [
+                17.26369857788086,
+                31.956573486328125,
+                15.300433158874512,
+                40.96936798095703,
+                10.022223472595215,
+                49.29051971435547,
+                61.608802795410156,
+                1.0
+            ],
+            "action_description": "Continuous Action",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'env_feedback': 'You are currently performing the task intended to pick up the star and place it into the silver container. At this moment, you have completed executing 12 steps. Last action is valid. The current reward obtained is 0.0.', 'instruction': 'Pick up the star and place it into the silver container.', 'env_step': 12, 'episode_elapsed_seconds': 39.370967388153076, 'episode_num': 1, 'action': array([     17.264,      31.957,        15.3,      40.969,      10.022,      49.291,      61.609,           1], dtype=float32), 'action_success': 1.0, 'task_success': 0.0}",
+            "frame_path": "random_agent_logs/EB-Manipulation/20260214_144559/step_12.png"
+        },
+        {
+            "step": 13,
+            "action_id": [
+                2.97365403175354,
+                78.48567199707031,
+                47.410831451416016,
+                87.38217163085938,
+                1.9434162378311157,
+                72.2005844116211,
+                14.174715995788574,
+                1.0
+            ],
+            "action_description": "Continuous Action",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'env_feedback': 'You are currently performing the task intended to pick up the star and place it into the silver container. At this moment, you have completed executing 13 steps. Last action is valid. The current reward obtained is 0.0.', 'instruction': 'Pick up the star and place it into the silver container.', 'env_step': 13, 'episode_elapsed_seconds': 42.361517667770386, 'episode_num': 1, 'action': array([     2.9737,      78.486,      47.411,      87.382,      1.9434,      72.201,      14.175,           1], dtype=float32), 'action_success': 1.0, 'task_success': 0.0}",
+            "frame_path": "random_agent_logs/EB-Manipulation/20260214_144559/step_13.png"
+        },
+        {
+            "step": 14,
+            "action_id": [
+                18.22200584411621,
+                58.41752624511719,
+                0.21910421550273895,
+                91.01524353027344,
+                21.364959716796875,
+                53.73955535888672,
+                73.19286346435547,
+                1.0
+            ],
+            "action_description": "Continuous Action",
+            "reward": -1.0,
+            "done": false,
+            "info": "{'env_feedback': 'You are currently performing the task intended to pick up the star and place it into the silver container. At this moment, you have completed executing 14 steps. Last action is invalid. Target is outside of workspace..The current reward obtained is -1.', 'instruction': 'Pick up the star and place it into the silver container.', 'env_step': 14, 'episode_elapsed_seconds': 42.37340497970581, 'episode_num': 1, 'action': array([     18.222,      58.418,      0.2191,      91.015,      21.365,       53.74,      73.193,           1], dtype=float32), 'action_success': 0.0, 'task_success': 0.0}",
+            "frame_path": "random_agent_logs/EB-Manipulation/20260214_144559/step_14.png"
+        },
+        {
+            "step": 15,
+            "action_id": [
+                36.84394454956055,
+                60.09050750732422,
+                24.381364822387695,
+                50.81168746948242,
+                70.4043960571289,
+                88.43708038330078,
+                28.08881187438965,
+                1.0
+            ],
+            "action_description": "Continuous Action",
+            "reward": 0.0,
+            "done": true,
+            "info": "{'env_feedback': 'You are currently performing the task intended to pick up the star and place it into the silver container. At this moment, you have completed executing 15 steps. Last action is valid. The current reward obtained is 0.0.', 'instruction': 'Pick up the star and place it into the silver container.', 'env_step': 15, 'episode_elapsed_seconds': 47.62511992454529, 'episode_num': 1, 'action': array([     36.844,      60.091,      24.381,      50.812,      70.404,      88.437,      28.089,           1], dtype=float32), 'action_success': 1.0, 'task_success': 0.0}",
+            "frame_path": "random_agent_logs/EB-Manipulation/20260214_144559/step_15.png"
+        }
+    ]
+}

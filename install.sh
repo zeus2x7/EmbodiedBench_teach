@@ -2,6 +2,11 @@
 source "$(conda info --base)/etc/profile.d/conda.sh"
 export EMBODIED_BENCH_ROOT=$(pwd)
 
+# Install Miniconda
+cd ~
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+source ~/.bashrc
 
 # # Environment for ```Habitat and Alfred```
 conda env create -f conda_envs/environment.yaml 
@@ -60,3 +65,8 @@ git clone https://huggingface.co/datasets/EmbodiedBench/EB-Manipulation
 mv EB-Manipulation/data/ ./
 rm -rf EB-Manipulation/
 cd ../../..
+
+conda install -c conda-forge libopengl
+sudo apt-get -y install libvulkan1
+sudo apt-get install libxkbcommon-x11-0
+sudo apt-get install fonts-ubuntu

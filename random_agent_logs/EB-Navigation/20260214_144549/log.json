@@ -1,0 +1,195 @@
+{
+    "env_name": "EB-Navigation",
+    "instruction": "navigate to the Bread in the room and be as close as possible to it",
+    "steps": [
+        {
+            "step": 0,
+            "action_id": null,
+            "action_description": "Initial State",
+            "reward": 0.0,
+            "done": false,
+            "info": {},
+            "frame_path": "random_agent_logs/EB-Navigation/20260214_144549/step_0.png"
+        },
+        {
+            "step": 1,
+            "action_id": 4,
+            "action_description": "Rotate to the right by 90 degrees.",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'action_description': 'Rotate to the right by 90 degrees.', 'distance': 2.8704765293683745, 'env_feedback': 'Last action RotateRight executed successfully.', 'reasoning': '', 'instruction': 'navigate to the Bread in the room and be as close as possible to it', 'env_step': 1, 'episode_elapsed_seconds': 0.11723613739013672, 'task_success': 0.0, 'last_action_success': True, 'action_id': 4}",
+            "frame_path": "random_agent_logs/EB-Navigation/20260214_144549/step_1.png"
+        },
+        {
+            "step": 2,
+            "action_id": 7,
+            "action_description": "Tilt the camera downward by 30 degrees.",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'action_description': 'Tilt the camera downward by 30 degrees.', 'distance': 2.8704765293683745, 'env_feedback': 'Last action LookDown executed successfully.', 'reasoning': '', 'instruction': 'navigate to the Bread in the room and be as close as possible to it', 'env_step': 2, 'episode_elapsed_seconds': 0.18898367881774902, 'task_success': 0.0, 'last_action_success': True, 'action_id': 7}",
+            "frame_path": "random_agent_logs/EB-Navigation/20260214_144549/step_2.png"
+        },
+        {
+            "step": 3,
+            "action_id": 5,
+            "action_description": "Rotate to the left by 90 degrees.",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'action_description': 'Rotate to the left by 90 degrees.', 'distance': 2.8704765293683745, 'env_feedback': 'Last action RotateLeft executed successfully.', 'reasoning': '', 'instruction': 'navigate to the Bread in the room and be as close as possible to it', 'env_step': 3, 'episode_elapsed_seconds': 0.2657804489135742, 'task_success': 0.0, 'last_action_success': True, 'action_id': 5}",
+            "frame_path": "random_agent_logs/EB-Navigation/20260214_144549/step_3.png"
+        },
+        {
+            "step": 4,
+            "action_id": 4,
+            "action_description": "Rotate to the right by 90 degrees.",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'action_description': 'Rotate to the right by 90 degrees.', 'distance': 2.8704765293683745, 'env_feedback': 'Last action RotateRight executed successfully.', 'reasoning': '', 'instruction': 'navigate to the Bread in the room and be as close as possible to it', 'env_step': 4, 'episode_elapsed_seconds': 0.32596826553344727, 'task_success': 0.0, 'last_action_success': True, 'action_id': 4}",
+            "frame_path": "random_agent_logs/EB-Navigation/20260214_144549/step_4.png"
+        },
+        {
+            "step": 5,
+            "action_id": 6,
+            "action_description": "Tilt the camera upward by 30 degrees.",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'action_description': 'Tilt the camera upward by 30 degrees.', 'distance': 2.8704765293683745, 'env_feedback': 'Last action LookUp executed successfully.', 'reasoning': '', 'instruction': 'navigate to the Bread in the room and be as close as possible to it', 'env_step': 5, 'episode_elapsed_seconds': 0.4449424743652344, 'task_success': 0.0, 'last_action_success': True, 'action_id': 6}",
+            "frame_path": "random_agent_logs/EB-Navigation/20260214_144549/step_5.png"
+        },
+        {
+            "step": 6,
+            "action_id": 4,
+            "action_description": "Rotate to the right by 90 degrees.",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'action_description': 'Rotate to the right by 90 degrees.', 'distance': 2.8704765293683745, 'env_feedback': 'Last action RotateRight executed successfully.', 'reasoning': '', 'instruction': 'navigate to the Bread in the room and be as close as possible to it', 'env_step': 6, 'episode_elapsed_seconds': 0.5165364742279053, 'task_success': 0.0, 'last_action_success': True, 'action_id': 4}",
+            "frame_path": "random_agent_logs/EB-Navigation/20260214_144549/step_6.png"
+        },
+        {
+            "step": 7,
+            "action_id": 5,
+            "action_description": "Rotate to the left by 90 degrees.",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'action_description': 'Rotate to the left by 90 degrees.', 'distance': 2.8704765293683745, 'env_feedback': 'Last action RotateLeft executed successfully.', 'reasoning': '', 'instruction': 'navigate to the Bread in the room and be as close as possible to it', 'env_step': 7, 'episode_elapsed_seconds': 0.5723483562469482, 'task_success': 0.0, 'last_action_success': True, 'action_id': 5}",
+            "frame_path": "random_agent_logs/EB-Navigation/20260214_144549/step_7.png"
+        },
+        {
+            "step": 8,
+            "action_id": 6,
+            "action_description": "Tilt the camera upward by 30 degrees.",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'action_description': 'Tilt the camera upward by 30 degrees.', 'distance': 2.8704765293683745, 'env_feedback': 'Last action LookUp executed successfully.', 'reasoning': '', 'instruction': 'navigate to the Bread in the room and be as close as possible to it', 'env_step': 8, 'episode_elapsed_seconds': 0.6266787052154541, 'task_success': 0.0, 'last_action_success': True, 'action_id': 6}",
+            "frame_path": "random_agent_logs/EB-Navigation/20260214_144549/step_8.png"
+        },
+        {
+            "step": 9,
+            "action_id": 4,
+            "action_description": "Rotate to the right by 90 degrees.",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'action_description': 'Rotate to the right by 90 degrees.', 'distance': 2.8704765293683745, 'env_feedback': 'Last action RotateRight executed successfully.', 'reasoning': '', 'instruction': 'navigate to the Bread in the room and be as close as possible to it', 'env_step': 9, 'episode_elapsed_seconds': 0.6819658279418945, 'task_success': 0.0, 'last_action_success': True, 'action_id': 4}",
+            "frame_path": "random_agent_logs/EB-Navigation/20260214_144549/step_9.png"
+        },
+        {
+            "step": 10,
+            "action_id": 3,
+            "action_description": "Move leftward by 0.25",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'action_description': 'Move leftward by 0.25', 'distance': 2.8704765293683745, 'env_feedback': 'Last action MoveLeft is invalid. StandardCounterHeightWidth is blocking Agent 0 from moving by (0.0000, 0.0000, -0.2500).', 'reasoning': '', 'instruction': 'navigate to the Bread in the room and be as close as possible to it', 'env_step': 10, 'episode_elapsed_seconds': 0.7421107292175293, 'task_success': 0.0, 'last_action_success': False, 'action_id': 3}",
+            "frame_path": "random_agent_logs/EB-Navigation/20260214_144549/step_10.png"
+        },
+        {
+            "step": 11,
+            "action_id": 5,
+            "action_description": "Rotate to the left by 90 degrees.",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'action_description': 'Rotate to the left by 90 degrees.', 'distance': 2.8704765293683745, 'env_feedback': 'Last action RotateLeft executed successfully.', 'reasoning': '', 'instruction': 'navigate to the Bread in the room and be as close as possible to it', 'env_step': 11, 'episode_elapsed_seconds': 0.7926080226898193, 'task_success': 0.0, 'last_action_success': True, 'action_id': 5}",
+            "frame_path": "random_agent_logs/EB-Navigation/20260214_144549/step_11.png"
+        },
+        {
+            "step": 12,
+            "action_id": 0,
+            "action_description": "Move forward by 0.25",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'action_description': 'Move forward by 0.25', 'distance': 2.8704765293683745, 'env_feedback': 'Last action MoveAhead is invalid. StandardCounterHeightWidth is blocking Agent 0 from moving by (0.0000, 0.0000, -0.2500).', 'reasoning': '', 'instruction': 'navigate to the Bread in the room and be as close as possible to it', 'env_step': 12, 'episode_elapsed_seconds': 0.8524553775787354, 'task_success': 0.0, 'last_action_success': False, 'action_id': 0}",
+            "frame_path": "random_agent_logs/EB-Navigation/20260214_144549/step_12.png"
+        },
+        {
+            "step": 13,
+            "action_id": 7,
+            "action_description": "Tilt the camera downward by 30 degrees.",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'action_description': 'Tilt the camera downward by 30 degrees.', 'distance': 2.8704765293683745, 'env_feedback': 'Last action LookDown executed successfully.', 'reasoning': '', 'instruction': 'navigate to the Bread in the room and be as close as possible to it', 'env_step': 13, 'episode_elapsed_seconds': 0.9075253009796143, 'task_success': 0.0, 'last_action_success': True, 'action_id': 7}",
+            "frame_path": "random_agent_logs/EB-Navigation/20260214_144549/step_13.png"
+        },
+        {
+            "step": 14,
+            "action_id": 1,
+            "action_description": "Move backward by 0.25",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'action_description': 'Move backward by 0.25', 'distance': 2.9210774094181833, 'env_feedback': 'Last action MoveBack executed successfully.', 'reasoning': '', 'instruction': 'navigate to the Bread in the room and be as close as possible to it', 'env_step': 14, 'episode_elapsed_seconds': 0.9641430377960205, 'task_success': 0.0, 'last_action_success': True, 'action_id': 1}",
+            "frame_path": "random_agent_logs/EB-Navigation/20260214_144549/step_14.png"
+        },
+        {
+            "step": 15,
+            "action_id": 4,
+            "action_description": "Rotate to the right by 90 degrees.",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'action_description': 'Rotate to the right by 90 degrees.', 'distance': 2.9210774094181833, 'env_feedback': 'Last action RotateRight executed successfully.', 'reasoning': '', 'instruction': 'navigate to the Bread in the room and be as close as possible to it', 'env_step': 15, 'episode_elapsed_seconds': 1.0187160968780518, 'task_success': 0.0, 'last_action_success': True, 'action_id': 4}",
+            "frame_path": "random_agent_logs/EB-Navigation/20260214_144549/step_15.png"
+        },
+        {
+            "step": 16,
+            "action_id": 7,
+            "action_description": "Tilt the camera downward by 30 degrees.",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'action_description': 'Tilt the camera downward by 30 degrees.', 'distance': 2.9210774094181833, 'env_feedback': 'Last action LookDown executed successfully.', 'reasoning': '', 'instruction': 'navigate to the Bread in the room and be as close as possible to it', 'env_step': 16, 'episode_elapsed_seconds': 1.0734729766845703, 'task_success': 0.0, 'last_action_success': True, 'action_id': 7}",
+            "frame_path": "random_agent_logs/EB-Navigation/20260214_144549/step_16.png"
+        },
+        {
+            "step": 17,
+            "action_id": 4,
+            "action_description": "Rotate to the right by 90 degrees.",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'action_description': 'Rotate to the right by 90 degrees.', 'distance': 2.9210774094181833, 'env_feedback': 'Last action RotateRight executed successfully.', 'reasoning': '', 'instruction': 'navigate to the Bread in the room and be as close as possible to it', 'env_step': 17, 'episode_elapsed_seconds': 1.131293535232544, 'task_success': 0.0, 'last_action_success': True, 'action_id': 4}",
+            "frame_path": "random_agent_logs/EB-Navigation/20260214_144549/step_17.png"
+        },
+        {
+            "step": 18,
+            "action_id": 1,
+            "action_description": "Move backward by 0.25",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'action_description': 'Move backward by 0.25', 'distance': 2.8704765425050534, 'env_feedback': 'Last action MoveBack executed successfully.', 'reasoning': '', 'instruction': 'navigate to the Bread in the room and be as close as possible to it', 'env_step': 18, 'episode_elapsed_seconds': 1.1954538822174072, 'task_success': 0.0, 'last_action_success': True, 'action_id': 1}",
+            "frame_path": "random_agent_logs/EB-Navigation/20260214_144549/step_18.png"
+        },
+        {
+            "step": 19,
+            "action_id": 4,
+            "action_description": "Rotate to the right by 90 degrees.",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'action_description': 'Rotate to the right by 90 degrees.', 'distance': 2.8704765425050534, 'env_feedback': 'Last action RotateRight executed successfully.', 'reasoning': '', 'instruction': 'navigate to the Bread in the room and be as close as possible to it', 'env_step': 19, 'episode_elapsed_seconds': 1.2715380191802979, 'task_success': 0.0, 'last_action_success': True, 'action_id': 4}",
+            "frame_path": "random_agent_logs/EB-Navigation/20260214_144549/step_19.png"
+        },
+        {
+            "step": 20,
+            "action_id": 5,
+            "action_description": "Rotate to the left by 90 degrees.",
+            "reward": 0.0,
+            "done": true,
+            "info": "{'action_description': 'Rotate to the left by 90 degrees.', 'distance': 2.8704765425050534, 'env_feedback': 'Last action RotateLeft executed successfully.', 'reasoning': '', 'instruction': 'navigate to the Bread in the room and be as close as possible to it', 'env_step': 20, 'episode_elapsed_seconds': 1.3341350555419922, 'task_success': 0.0, 'last_action_success': True, 'action_id': 5}",
+            "frame_path": "random_agent_logs/EB-Navigation/20260214_144549/step_20.png"
+        }
+    ]
+}

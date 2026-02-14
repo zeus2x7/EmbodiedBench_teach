@@ -1,0 +1,141 @@
+{
+    "env_name": "EB-ALFRED",
+    "instruction": "Rinse off a ladle and move it to the table.",
+    "steps": [
+        {
+            "step": 0,
+            "action_id": null,
+            "action_description": "Initial State",
+            "reward": 0.0,
+            "done": false,
+            "info": {},
+            "frame_path": "random_agent_logs/EB-ALFRED/20260214_144425/step_0.png"
+        },
+        {
+            "step": 1,
+            "action_id": 88,
+            "action_description": "pick up the Newspaper",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'task_success': 0.0, 'task_progress': 0.3333333333333333, 'instruction': 'Rinse off a ladle and move it to the table.', 'env_step': 1, 'env_feedback': 'Last action is invalid. Cannot find Newspaper to pick up. Find the object before picking up it', 'episode_elapsed_seconds': 0.008186817169189453, 'last_action_success': 0.0, 'object_states': {'cooled_objects': set(), 'heated_objects': set(), 'cleaned_objects': set(), 'visible_objs': ['Fridge', 'GarbageCan']}, 'action_id': 88, 'action_description': 'pick up the Newspaper', 'reasoning': ''}",
+            "frame_path": "random_agent_logs/EB-ALFRED/20260214_144425/step_1.png"
+        },
+        {
+            "step": 2,
+            "action_id": 76,
+            "action_description": "find a SoapBottle",
+            "reward": 2.0,
+            "done": false,
+            "info": "{'task_success': 0.0, 'task_progress': 0.3333333333333333, 'instruction': 'Rinse off a ladle and move it to the table.', 'env_step': 2, 'env_feedback': 'Last action executed successfully.', 'episode_elapsed_seconds': 0.1862485408782959, 'last_action_success': 1.0, 'object_states': {'cooled_objects': set(), 'heated_objects': set(), 'cleaned_objects': set(), 'visible_objs': ['Mug', 'PepperShaker', 'Plate', 'DiningTable', 'CoffeeMachine', 'SoapBottle', 'Bread', 'Toaster', 'Pan', 'Bowl']}, 'action_id': 76, 'action_description': 'find a SoapBottle', 'reasoning': ''}",
+            "frame_path": "random_agent_logs/EB-ALFRED/20260214_144425/step_2.png"
+        },
+        {
+            "step": 3,
+            "action_id": 1,
+            "action_description": "find a Potato",
+            "reward": -0.6000000000000001,
+            "done": false,
+            "info": "{'task_success': 0.0, 'task_progress': 0.3333333333333333, 'instruction': 'Rinse off a ladle and move it to the table.', 'env_step': 3, 'env_feedback': 'Last action executed successfully.', 'episode_elapsed_seconds': 0.3525099754333496, 'last_action_success': 1.0, 'object_states': {'cooled_objects': set(), 'heated_objects': set(), 'cleaned_objects': set(), 'visible_objs': ['Spoon', 'Potato', 'Fork', 'Apple', 'Spoon', 'Sink', 'Drawer', 'Cabinet', 'Drawer', 'CounterTop', 'Cabinet', 'Window', 'SinkBasin', 'SaltShaker', 'Faucet']}, 'action_id': 1, 'action_description': 'find a Potato', 'reasoning': ''}",
+            "frame_path": "random_agent_logs/EB-ALFRED/20260214_144425/step_3.png"
+        },
+        {
+            "step": 4,
+            "action_id": 124,
+            "action_description": "pick up the Pillow",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'task_success': 0.0, 'task_progress': 0.3333333333333333, 'instruction': 'Rinse off a ladle and move it to the table.', 'env_step': 4, 'env_feedback': 'Last action is invalid. Cannot find Pillow to pick up. Find the object before picking up it', 'episode_elapsed_seconds': 0.36873364448547363, 'last_action_success': 0.0, 'object_states': {'cooled_objects': set(), 'heated_objects': set(), 'cleaned_objects': set(), 'visible_objs': ['Spoon', 'Potato', 'Fork', 'Apple', 'Spoon', 'Sink', 'Drawer', 'Cabinet', 'Drawer', 'CounterTop', 'Cabinet', 'Window', 'SinkBasin', 'SaltShaker', 'Faucet']}, 'action_id': 124, 'action_description': 'pick up the Pillow', 'reasoning': ''}",
+            "frame_path": "random_agent_logs/EB-ALFRED/20260214_144425/step_4.png"
+        },
+        {
+            "step": 5,
+            "action_id": 72,
+            "action_description": "find a SaltShaker",
+            "reward": 0.6000000000000001,
+            "done": false,
+            "info": "{'task_success': 0.0, 'task_progress': 0.3333333333333333, 'instruction': 'Rinse off a ladle and move it to the table.', 'env_step': 5, 'env_feedback': 'Last action executed successfully.', 'episode_elapsed_seconds': 0.5172019004821777, 'last_action_success': 1.0, 'object_states': {'cooled_objects': set(), 'heated_objects': set(), 'cleaned_objects': set(), 'visible_objs': ['Mug', 'PepperShaker', 'Plate', 'DiningTable', 'CoffeeMachine', 'SoapBottle', 'Bread', 'Toaster', 'Pan', 'Egg', 'Bowl']}, 'action_id': 72, 'action_description': 'find a SaltShaker', 'reasoning': ''}",
+            "frame_path": "random_agent_logs/EB-ALFRED/20260214_144425/step_5.png"
+        },
+        {
+            "step": 6,
+            "action_id": 31,
+            "action_description": "find a Plate",
+            "reward": -0.2,
+            "done": false,
+            "info": "{'task_success': 0.0, 'task_progress': 0.3333333333333333, 'instruction': 'Rinse off a ladle and move it to the table.', 'env_step': 6, 'env_feedback': 'Last action executed successfully.', 'episode_elapsed_seconds': 0.6619493961334229, 'last_action_success': 1.0, 'object_states': {'cooled_objects': set(), 'heated_objects': set(), 'cleaned_objects': set(), 'visible_objs': ['Mug', 'PepperShaker', 'SaltShaker', 'Plate', 'DiningTable', 'CoffeeMachine', 'SoapBottle', 'Bread', 'Toaster', 'Pan', 'Bowl']}, 'action_id': 31, 'action_description': 'find a Plate', 'reasoning': ''}",
+            "frame_path": "random_agent_logs/EB-ALFRED/20260214_144425/step_6.png"
+        },
+        {
+            "step": 7,
+            "action_id": 47,
+            "action_description": "find a Pen",
+            "reward": 0.0,
+            "done": false,
+            "info": "{'task_success': 0.0, 'task_progress': 0.3333333333333333, 'instruction': 'Rinse off a ladle and move it to the table.', 'env_step': 7, 'env_feedback': 'Last action is invalid. Cannot find Pen. This object may not exist in this scene. Try to explore other instances instead.', 'episode_elapsed_seconds': 0.677370548248291, 'last_action_success': 0.0, 'object_states': {'cooled_objects': set(), 'heated_objects': set(), 'cleaned_objects': set(), 'visible_objs': ['Mug', 'PepperShaker', 'SaltShaker', 'Plate', 'DiningTable', 'CoffeeMachine', 'SoapBottle', 'Bread', 'Toaster', 'Pan', 'Bowl']}, 'action_id': 47, 'action_description': 'find a Pen', 'reasoning': ''}",
+            "frame_path": "random_agent_logs/EB-ALFRED/20260214_144425/step_7.png"
+        },
+        {
+            "step": 8,
+            "action_id": 82,
+            "action_description": "pick up the Pot",
+            "reward": -0.5,
+            "done": false,
+            "info": "{'task_success': 0.0, 'task_progress': 0.3333333333333333, 'instruction': 'Rinse off a ladle and move it to the table.', 'env_step': 8, 'env_feedback': 'Last action is invalid. Pot is not visible because it is in StoveBurner_4. Go there to pick the object instead.', 'episode_elapsed_seconds': 0.8196976184844971, 'last_action_success': 0.0, 'object_states': {'cooled_objects': set(), 'heated_objects': set(), 'cleaned_objects': set(), 'visible_objs': ['Mug', 'PepperShaker', 'SaltShaker', 'Plate', 'DiningTable', 'CoffeeMachine', 'SoapBottle', 'Bread', 'Toaster', 'Pan', 'Bowl']}, 'action_id': 82, 'action_description': 'pick up the Pot', 'reasoning': ''}",
+            "frame_path": "random_agent_logs/EB-ALFRED/20260214_144425/step_8.png"
+        },
+        {
+            "step": 9,
+            "action_id": 26,
+            "action_description": "find a Plunger",
+            "reward": -0.5,
+            "done": false,
+            "info": "{'task_success': 0.0, 'task_progress': 0.3333333333333333, 'instruction': 'Rinse off a ladle and move it to the table.', 'env_step': 9, 'env_feedback': 'Last action is invalid. Cannot find Plunger. This object may not exist in this scene. Try to explore other instances instead.', 'episode_elapsed_seconds': 0.8350114822387695, 'last_action_success': 0.0, 'object_states': {'cooled_objects': set(), 'heated_objects': set(), 'cleaned_objects': set(), 'visible_objs': ['Mug', 'PepperShaker', 'SaltShaker', 'Plate', 'DiningTable', 'CoffeeMachine', 'SoapBottle', 'Bread', 'Toaster', 'Pan', 'Bowl']}, 'action_id': 26, 'action_description': 'find a Plunger', 'reasoning': ''}",
+            "frame_path": "random_agent_logs/EB-ALFRED/20260214_144425/step_9.png"
+        },
+        {
+            "step": 10,
+            "action_id": 108,
+            "action_description": "pick up the TennisRacket",
+            "reward": -0.5,
+            "done": false,
+            "info": "{'task_success': 0.0, 'task_progress': 0.3333333333333333, 'instruction': 'Rinse off a ladle and move it to the table.', 'env_step': 10, 'env_feedback': 'Last action is invalid. Cannot find Tennisracket to pick up. Find the object before picking up it', 'episode_elapsed_seconds': 0.849308967590332, 'last_action_success': 0.0, 'object_states': {'cooled_objects': set(), 'heated_objects': set(), 'cleaned_objects': set(), 'visible_objs': ['Mug', 'PepperShaker', 'SaltShaker', 'Plate', 'DiningTable', 'CoffeeMachine', 'SoapBottle', 'Bread', 'Toaster', 'Pan', 'Bowl']}, 'action_id': 108, 'action_description': 'pick up the TennisRacket', 'reasoning': ''}",
+            "frame_path": "random_agent_logs/EB-ALFRED/20260214_144425/step_10.png"
+        },
+        {
+            "step": 11,
+            "action_id": 0,
+            "action_description": "find a Cart",
+            "reward": -0.5,
+            "done": false,
+            "info": "{'task_success': 0.0, 'task_progress': 0.3333333333333333, 'instruction': 'Rinse off a ladle and move it to the table.', 'env_step': 11, 'env_feedback': 'Last action is invalid. Cannot find Cart. This object may not exist in this scene. Try to explore other instances instead.', 'episode_elapsed_seconds': 0.8635625839233398, 'last_action_success': 0.0, 'object_states': {'cooled_objects': set(), 'heated_objects': set(), 'cleaned_objects': set(), 'visible_objs': ['Mug', 'PepperShaker', 'SaltShaker', 'Plate', 'DiningTable', 'CoffeeMachine', 'SoapBottle', 'Bread', 'Toaster', 'Pan', 'Bowl']}, 'action_id': 0, 'action_description': 'find a Cart', 'reasoning': ''}",
+            "frame_path": "random_agent_logs/EB-ALFRED/20260214_144425/step_11.png"
+        },
+        {
+            "step": 12,
+            "action_id": 23,
+            "action_description": "find a TennisRacket",
+            "reward": -0.5,
+            "done": false,
+            "info": "{'task_success': 0.0, 'task_progress': 0.3333333333333333, 'instruction': 'Rinse off a ladle and move it to the table.', 'env_step': 12, 'env_feedback': 'Last action is invalid. Cannot find Tennisracket. This object may not exist in this scene. Try to explore other instances instead.', 'episode_elapsed_seconds': 0.8777720928192139, 'last_action_success': 0.0, 'object_states': {'cooled_objects': set(), 'heated_objects': set(), 'cleaned_objects': set(), 'visible_objs': ['Mug', 'PepperShaker', 'SaltShaker', 'Plate', 'DiningTable', 'CoffeeMachine', 'SoapBottle', 'Bread', 'Toaster', 'Pan', 'Bowl']}, 'action_id': 23, 'action_description': 'find a TennisRacket', 'reasoning': ''}",
+            "frame_path": "random_agent_logs/EB-ALFRED/20260214_144425/step_12.png"
+        },
+        {
+            "step": 13,
+            "action_id": 157,
+            "action_description": "slice the Potato",
+            "reward": -0.5,
+            "done": false,
+            "info": "{'task_success': 0.0, 'task_progress': 0.3333333333333333, 'instruction': 'Rinse off a ladle and move it to the table.', 'env_step': 13, 'env_feedback': 'Last action is invalid. Slice action failed', 'episode_elapsed_seconds': 1.0284180641174316, 'last_action_success': 0.0, 'object_states': {'cooled_objects': set(), 'heated_objects': set(), 'cleaned_objects': set(), 'visible_objs': ['Mug', 'PepperShaker', 'SaltShaker', 'Plate', 'DiningTable', 'CoffeeMachine', 'SoapBottle', 'Bread', 'Toaster', 'Pan', 'Bowl']}, 'action_id': 157, 'action_description': 'slice the Potato', 'reasoning': ''}",
+            "frame_path": "random_agent_logs/EB-ALFRED/20260214_144425/step_13.png"
+        },
+        {
+            "step": 14,
+            "action_id": 66,
+            "action_description": "find a Pencil",
+            "reward": -0.5,
+            "done": true,
+            "info": "{'task_success': 0.0, 'task_progress': 0.3333333333333333, 'instruction': 'Rinse off a ladle and move it to the table.', 'env_step': 14, 'env_feedback': 'Last action is invalid. Cannot find Pencil. This object may not exist in this scene. Try to explore other instances instead.', 'episode_elapsed_seconds': 1.043520212173462, 'last_action_success': 0.0, 'object_states': {'cooled_objects': set(), 'heated_objects': set(), 'cleaned_objects': set(), 'visible_objs': ['Mug', 'PepperShaker', 'SaltShaker', 'Plate', 'DiningTable', 'CoffeeMachine', 'SoapBottle', 'Bread', 'Toaster', 'Pan', 'Bowl']}, 'action_id': 66, 'action_description': 'find a Pencil', 'reasoning': ''}",
+            "frame_path": "random_agent_logs/EB-ALFRED/20260214_144425/step_14.png"
+        }
+    ]
+}
