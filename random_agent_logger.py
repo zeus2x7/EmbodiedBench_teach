@@ -32,6 +32,14 @@ class RandomAgent:
             from embodiedbench.envs.eb_habitat.EBHabEnv import EBHabEnv
             self.env = EBHabEnv(eval_set="base")
             self.rgb_key = 'head_rgb'
+        elif self.env_name == "EB-TEACh":
+             # TEACh uses a separate environment to avoid ai2thor version conflicts
+             try:
+                 from embodiedbench.envs.eb_teach.EBTeachEnv import EBTeachEnv
+                 self.env = EBTeachEnv()
+                 self.rgb_key = 'head_rgb'
+             except ImportError as e:
+                 raise ImportError(f"Could not import EBTeachEnv. Make sure you are in 'embench_teach' env. Error: {e}")
         else:
             raise ValueError(f"Unknown environment: {self.env_name}")
         
@@ -124,6 +132,10 @@ class RandomAgent:
                 obs, reward, done, info = self.env.step(action)
                  # EBHabEnv: action is int index
                 action_desc = self.env.language_skill_set[action] if hasattr(self.env, 'language_skill_set') else str(action)
+            elif self.env_name == "EB-TEACh":
+                obs, reward, done, info = self.env.step(action)
+                # EBTeachEnv: action is int index, mapped to string in language_skill_set
+                action_desc = self.env.language_skill_set[action] if hasattr(self.env, 'language_skill_set') else str(action)
             else:
                 obs, reward, done, info = self.env.step(action)
                 action_desc = str(action)
@@ -169,7 +181,7 @@ class RandomAgent:
 def main():
     parser = argparse.ArgumentParser(description="Run random agent on EmbodiedBench environments")
     parser.add_argument("--env", type=str, required=True, 
-                        choices=["EB-ALFRED", "EB-Manipulation", "EB-Navigation", "EB-Habitat"],
+                        choices=["EB-ALFRED", "EB-Manipulation", "EB-Navigation", "EB-Habitat", "EB-TEACh"],
                         help="Environment to run")
     args = parser.parse_args()
 

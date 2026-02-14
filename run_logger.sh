@@ -7,7 +7,7 @@
 source $(conda info --base)/etc/profile.d/conda.sh
 
 # List of environments to run
-ENVS=("EB-ALFRED" "EB-Habitat" "EB-Navigation" "EB-Manipulation")
+ENVS=("EB-ALFRED" "EB-Habitat" "EB-Navigation" "EB-Manipulation" "EB-TEACh")
 
 for ENV_NAME in "${ENVS[@]}"; do
     echo "=========================================="
@@ -23,6 +23,9 @@ for ENV_NAME in "${ENVS[@]}"; do
     elif [ "$ENV_NAME" == "EB-Navigation" ]; then
         echo "Activating 'embench_nav' for EB-Navigation..."
         conda activate embench_nav
+    elif [ "$ENV_NAME" == "EB-TEACh" ]; then
+        echo "Activating 'embench_teach' for EB-TEACh..."
+        conda activate embench_teach
     elif [ "$ENV_NAME" == "EB-Manipulation" ]; then
         echo "Activating 'embench_man' for EB-Manipulation..."
         conda activate embench_man

@@ -23,7 +23,8 @@ class_names = {
     "eb-alf": "EB_AlfredEvaluator",
     "eb-hab": "EB_HabitatEvaluator",
     "eb-nav": "EB_NavigationEvaluator",
-    "eb-man": "EB_ManipulationEvaluator"
+    "eb-man": "EB_ManipulationEvaluator",
+    "eb-teach": "EB_TeachEvaluator"
 }
 
 # the evaluator file you want to use
@@ -31,7 +32,8 @@ module_names = {
     "eb-alf": "eb_alfred_evaluator",
     "eb-hab": "eb_habitat_evaluator",
     "eb-nav": "eb_navigation_evaluator",
-    "eb-man": "eb_manipulation_evaluator"
+    "eb-man": "eb_manipulation_evaluator",
+    "eb-teach": "eb_teach_evaluator"
 }
 
 def get_evaluator(env_name: str):

@@ -236,6 +236,18 @@ python -m embodiedbench.envs.eb_manipulation.EBManEnv
 ```
 
 
+## EB-TEACh
+1. Run the setup script to create the environment and install dependencies:
+```bash
+./setup_teach.sh
+```
+2. Activate the environment and run the evaluation:
+```bash
+conda activate embench_teach
+python -m embodiedbench.main env=eb-teach model_name=gpt-4o-mini exp_name='baseline'
+```
+
+
 # 🚀 Quick Start
 ### Proprietary Models
 Before running evaluations, set up your environment variables if you plan to use proprietary models:
